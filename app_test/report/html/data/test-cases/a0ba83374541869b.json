@@ -1,0 +1,86 @@
+{
+  "uid" : "a0ba83374541869b",
+  "name" : "TestAllureReport.test_a",
+  "fullName" : "test_allure_report.TestAllureReport.test_a",
+  "historyId" : "5f89ffe37f2669f39b24d1101044b17b",
+  "time" : {
+    "start" : 1559636832261,
+    "stop" : 1559636832263,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "第一步",
+      "time" : {
+        "start" : 1559636832263,
+        "stop" : 1559636832263,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "zyw.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "75270-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAllureReport.test_a"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0ba83374541869b.json",
+  "parameterValues" : [ ]
+}

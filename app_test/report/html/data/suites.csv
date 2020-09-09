@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Jun 04 16:27:12 CST 2019","Tue Jun 04 16:27:12 CST 2019","63","","test_allure_report","","test_allure_report","TestAllureReport.test_b[2]","TestAllureReport.test_b[2]",""
+"passed","Tue Jun 04 16:27:12 CST 2019","Tue Jun 04 16:27:12 CST 2019","1","","test_allure_report","","test_allure_report","TestAllureReport.test_b[3]","TestAllureReport.test_b[3]",""
+"passed","Tue Jun 04 16:27:12 CST 2019","Tue Jun 04 16:27:12 CST 2019","1","","test_allure_report","","test_allure_report","TestAllureReport.test_b[1]","TestAllureReport.test_b[1]",""
+"passed","Tue Jun 04 16:27:12 CST 2019","Tue Jun 04 16:27:12 CST 2019","2","","test_allure_report","","test_allure_report","TestAllureReport.test_a","TestAllureReport.test_a",""
+"passed","Tue Jun 04 16:27:12 CST 2019","Tue Jun 04 16:27:27 CST 2019","15194","","test_search","","test_search","TestSearchContent.test_search_btn[wlan]","TestSearchContent.test_search_btn[wlan]","点击搜索后点击返回"

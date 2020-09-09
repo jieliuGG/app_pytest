@@ -1,0 +1,86 @@
+{
+  "uid" : "2bc118d451ee4068",
+  "name" : "TestSearchContent.test_search_btn[wlan]",
+  "fullName" : "test_search.TestSearchContent.test_search_btn[wlan]",
+  "historyId" : "3f11b6e01d73ae0dd69445d8f2405c9c",
+  "time" : {
+    "start" : 1559636832332,
+    "stop" : 1559636847526,
+    "duration" : 15194
+  },
+  "description" : "点击搜索后点击返回",
+  "descriptionHtml" : "<p>点击搜索后点击返回</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "make_some_data_foo",
+      "time" : {
+        "start" : 1559636837031,
+        "stop" : 1559636847526,
+        "duration" : 10495
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "zyw.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "75270-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "testClass",
+    "value" : "test_search"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestSearchContent.test_search_btn[wlan]"
+  }, {
+    "name" : "package",
+    "value" : "test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bc118d451ee4068.json",
+  "parameterValues" : [ ]
+}

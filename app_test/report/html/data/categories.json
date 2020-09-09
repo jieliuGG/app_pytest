@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 2 != 2",
+      "children" : [ {
+        "name" : "TestAllureReport.test_b[2]",
+        "uid" : "dd4c68f6cc46e55",
+        "parentUid" : "46e237b74d8f43a081a3467b827ad3c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1559636832265,
+          "stop" : 1559636832328,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46e237b74d8f43a081a3467b827ad3c6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,101 @@
+{
+  "uid" : "dd4c68f6cc46e55",
+  "name" : "TestAllureReport.test_b[2]",
+  "fullName" : "test_allure_report.TestAllureReport.test_b[2]",
+  "historyId" : "5f1732f73d8ac4858a54c85c85bff1d2",
+  "time" : {
+    "start" : 1559636832265,
+    "stop" : 1559636832328,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 != 2",
+  "statusTrace" : "self = <test_allure_report.TestAllureReport object at 0x10b5db898>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    @allure.step(\"第二步\")\n    def test_b(self, data):\n        print(\"test_b\")\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts/test_allure_report.py:20: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 != 2",
+    "statusTrace" : "self = <test_allure_report.TestAllureReport object at 0x10b5db898>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    @allure.step(\"第二步\")\n    def test_b(self, data):\n        print(\"test_b\")\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts/test_allure_report.py:20: AssertionError",
+    "steps" : [ {
+      "name" : "第二步",
+      "time" : {
+        "start" : 1559636832266,
+        "stop" : 1559636832266,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_allure_report.TestAllureReport object at 0x10b5db898>, data = 2\n\n    @pytest.mark.parametrize('data', [1,2,3])\n    @allure.step(\"第二步\")\n    def test_b(self, data):\n        print(\"test_b\")\n        allure.attach(\"错误信息\", \"a不等于2\")\n>       assert data != 2\nE       assert 2 != 2\n\nscripts/test_allure_report.py:20: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef2015947e91a927",
+        "name" : "错误信息",
+        "source" : "ef2015947e91a927.txt",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "zyw.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "75270-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testClass",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAllureReport.test_b[2]"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd4c68f6cc46e55.json",
+  "parameterValues" : [ ]
+}

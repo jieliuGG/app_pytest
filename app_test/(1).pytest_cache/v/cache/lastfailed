@@ -1,0 +1,6 @@
+{
+  "scripts/test_allure_report.py": true,
+  "scripts/test_allure_report.py::TestAllureReport::test_b": true,
+  "scripts/test_allure_report.py::TestAllureReport::test_b[2]": true,
+  "scripts/test_search.py": true
+}

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "dd4c68f6cc46e55",
+  "name" : "TestAllureReport.test_b[2]",
+  "time" : {
+    "start" : 1559636832265,
+    "stop" : 1559636832328,
+    "duration" : 63
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bc118d451ee4068",
+  "name" : "TestSearchContent.test_search_btn[wlan]",
+  "time" : {
+    "start" : 1559636832332,
+    "stop" : 1559636847526,
+    "duration" : 15194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c68288deb7a0246",
+  "name" : "TestAllureReport.test_b[3]",
+  "time" : {
+    "start" : 1559636832330,
+    "stop" : 1559636832331,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aa895b2843f6554",
+  "name" : "TestAllureReport.test_b[1]",
+  "time" : {
+    "start" : 1559636832263,
+    "stop" : 1559636832264,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0ba83374541869b",
+  "name" : "TestAllureReport.test_a",
+  "time" : {
+    "start" : 1559636832261,
+    "stop" : 1559636832263,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
